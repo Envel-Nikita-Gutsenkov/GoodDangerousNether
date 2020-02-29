@@ -1,0 +1,12 @@
+main: mainPack.main
+name: GoodDangerousNether
+version: 9.1
+author: Envel
+description: Expands the nether to be more interesting.
+api-version: 1.14
+commands:
+  getworldnamed:
+    description: Gets the name of the world you are in for use in config.
+    usage: /getworldnamed
+    permission: dangern.getworldnamed
+    permission-message: You don't have the dangern.getworldnamed permission.
